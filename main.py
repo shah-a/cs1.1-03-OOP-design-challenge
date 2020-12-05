@@ -1,9 +1,11 @@
 # Bismillah al-Rahmaan al-Raheem
 # Ali Shah | Dec. 05, 2020
 
-"""CS1.1 Assignment 3: OOP Design."""
+"""CS1.1 Assignment 3: OOP Design Challenge."""
 
-import class1
-import class2
-import class3
-import class4
+from garage import Garage
+from cars import Car, Supercar
+from mechanic import Mechanic
+
+if __name__ == '__main__':
+    print("running")
