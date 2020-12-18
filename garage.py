@@ -24,7 +24,7 @@ class Garage:
 
     def change_uniform(self):
         colour = input("What's the new colour?: ")
-        Mechanic.uniform_colour = colour
+        Mechanic.change_uniform(colour)
 
     def add_mechanic(self):
         name = input("What's the new mechanic's name?: ")
